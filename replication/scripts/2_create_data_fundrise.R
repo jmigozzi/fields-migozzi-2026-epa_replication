@@ -9,8 +9,8 @@ library(textclean)
 
 # Specify your path here
 #Open data
-df_threads <- read.csv(here("/data/allthreads_10_20_2023_Sortby_new_Period_year.csv"), encoding = "latin1")
-df_comments <- read.csv(here("/data/back_up/allcomments_10_20_2023_Sortby_new_Period_year.csv"), encoding = "latin1")
+df_threads <- read.csv(here("/data/raw/allthreads_10_20_2023_Sortby_new_Period_year.csv"), encoding = "latin1")
+df_comments <- read.csv(here("/data/raw/back_up/allcomments_10_20_2023_Sortby_new_Period_year.csv"), encoding = "latin1")
 
 
 #Combine threads and comments into a single object

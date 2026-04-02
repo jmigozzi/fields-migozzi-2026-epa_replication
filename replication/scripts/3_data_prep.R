@@ -192,7 +192,7 @@ mycorpus <- corpus(all_thread_df, text_field = "clean_text")
 
 
 #2.b. Save sparsed corpus and open the saved file
-# saveRDS(sparsed_corpus, file = "processed/sparsed_corpus.RDS")
+# saveRDS(sparsed_corpus, file = "data/processed/sparsed_corpus.RDS")
 
 #Clean sparsed corpus
 number_to_remove <- c("one", "two", "three", "four", "five", "six", "seven",

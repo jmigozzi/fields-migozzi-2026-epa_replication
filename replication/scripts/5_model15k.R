@@ -198,4 +198,4 @@ for (topic in topics) {
 }
 
 # Save the workbook to a file
-saveWorkbook(wb, file = "threads_with_2_topics.xlsx", overwrite = TRUE)
+saveWorkbook(wb, file = "data/processed/threads_with_2_topics.xlsx", overwrite = TRUE)

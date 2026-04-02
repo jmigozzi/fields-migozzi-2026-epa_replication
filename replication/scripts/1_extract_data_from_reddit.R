@@ -74,7 +74,7 @@ stri_enc_detect(df_threads$title)
 #Export data as csv ----
 #----------------------------------------------------#
 
-write.csv(df_threads, "allthreads_10_20_2023_Sortby_new_Period_year.csv", row.names = F)
-write.csv(df_comments, "allcomments_10_20_2023_Sortby_new_Period_year.csv", row.names = F)
+write.csv(df_threads, "data/raw/allthreads_10_20_2023_Sortby_new_Period_year.csv", row.names = F)
+write.csv(df_comments, "data/raw/allcomments_10_20_2023_Sortby_new_Period_year.csv", row.names = F)
 
 
